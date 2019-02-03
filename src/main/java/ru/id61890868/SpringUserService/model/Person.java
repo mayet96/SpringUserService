@@ -9,7 +9,7 @@ public class Person {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Integer id;
 
     @Version
     private Integer version;
@@ -42,7 +42,7 @@ public class Person {
 
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
